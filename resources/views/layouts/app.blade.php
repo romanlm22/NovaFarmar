@@ -4,22 +4,17 @@
     <meta charset="UTF-8">
     <title>@yield('title')</title>
 
-    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
-    <!-- TU CSS -->
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 
 <body class="d-flex flex-column min-vh-100">
 
-    <!-- NAVBAR GLOBAL -->
     <x-navbar />
 
-    <!-- CONTENIDO -->
     <div class="flex-grow-1">
     @yield('content')
 </div>
@@ -29,7 +24,6 @@
 
         <div class="row">
 
-            <!-- 🔹 INFO -->
             <div class="col-md-4 mb-3">
                 <h5 class="fw-bold">Farmacia</h5>
                 <p class="small">
@@ -37,7 +31,6 @@
                 </p>
             </div>
 
-            <!-- 🔹 LINKS -->
             <div class="col-md-4 mb-3">
                 <h6 class="fw-bold">Enlaces</h6>
                 <ul class="list-unstyled">
@@ -48,13 +41,12 @@
                 </ul>
             </div>
 
-            <!-- 🔹 REDES -->
             <div class="col-md-4 mb-3">
                 <h6 class="fw-bold">Seguinos</h6>
 
                 <div class="d-flex gap-3 mt-2">
 
-                    <a href="https://instagram.com" target="_blank" class="text-white fs-4 social-icon">
+                    <a href="https://instagram.com/" target="_blank" class="text-white fs-4 social-icon">
                         <i class="bi bi-instagram"></i>
                     </a>
 
@@ -68,10 +60,8 @@
 
         </div>
 
-        <!-- 🔹 LÍNEA -->
         <hr class="border-light">
 
-        <!-- 🔹 COPYRIGHT -->
         <div class="text-center small">
             © {{ date('Y') }} Farmacia - Todos los derechos reservados
         </div>

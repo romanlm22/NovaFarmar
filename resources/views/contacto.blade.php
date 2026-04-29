@@ -5,8 +5,6 @@
 @section('content')
 
 <div class="container mt-5 mb-5">
-
-    <!-- 🔹 TÍTULO -->
     <h2 class="text-center fw-bold mb-4">Contacto</h2>
 
     <div class="row justify-content-center">
@@ -20,7 +18,6 @@
 
                 <div class="card-body">
 
-                    <!-- MENSAJE DE ÉXITO -->
                     <div id="mensajeExito" class="alert alert-success d-none">
                         Mensaje enviado correctamente ✅
                     </div>
@@ -46,7 +43,6 @@
         </div>
     </div>
 
-    <!-- 🔹 MAPA -->
     <div class="mt-5">
         <h3 class="text-center fw-bold mb-3">📍 Visitános</h3>
 

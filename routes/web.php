@@ -11,7 +11,7 @@ Route::get('/categoria1', function () {
 });
 
 Route::get('/categoria2', function () {
-    return view('categoria1');
+    return view('categoria2');
 });
 
 Route::get('/categoria3', function () {

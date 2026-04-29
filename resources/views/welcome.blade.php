@@ -9,7 +9,7 @@
     <div class="row g-4 mb-5">
         <div class="col-12 col-md-6">
             <h5 class="fw-bold text-success mb-3 border-start border-4 border-success ps-2">Sucursales</h5>
-            <div class="carousel slide shadow">
+            <div class="carousel slide carousel-fade shadow" data-bs-ride="carousel" data-bs-interval="3000">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="https://images.unsplash.com/photo-1586015555751-63bb77f4322a?q=80&w=800" class="d-block w-100">
@@ -31,7 +31,7 @@
 
         <div class="col-12 col-md-6">
             <h5 class="fw-bold text-primary mb-3 border-start border-4 border-primary ps-2">Perfumería</h5>
-            <div class="carousel slide shadow">
+            <div class="carousel slide carousel-fade shadow" data-bs-ride="carousel" data-bs-interval="3000">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?q=80&w=800" class="d-block w-100">
